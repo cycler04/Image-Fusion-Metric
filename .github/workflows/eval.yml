@@ -34,7 +34,7 @@ jobs:
 
       - name: Run evaluator
         run: |
-          python python_metrics\evaluate_all.py
+          python python_metrics/evaluate_all.py
 
       - name: Commit metric outputs
         run: |
